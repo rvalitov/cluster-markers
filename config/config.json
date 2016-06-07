@@ -1,7 +1,7 @@
 [
   {
-    "name": "Classic Circles",
-    "info": "Standard (default) icon set",
+    "name": "Standard",
+    "info": "This is the standard (default) icon set that is used in original Yootheme's Map widget. This set is a part of <a href=\"https://github.com/googlemaps/js-marker-clusterer\">Master Clusterer</a> Javascript library provided by Google.",
     "icon1": "https://raw.githubusercontent.com/rvalitov/cluster-markers/master/images/circles/m1.png",
     "color1": "black",
     "width1": 53,
@@ -50,7 +50,7 @@
   },
   {
     "name": "Standard Pin",
-    "info": 0,
+    "info": "This set contains a single icon that is used for clustering of markers on all levels. This set is a part of <a href=\"https://github.com/googlemaps/js-marker-clusterer\">Master Clusterer</a> Javascript library provided by Google.",
     "icon1": "https://raw.githubusercontent.com/rvalitov/cluster-markers/master/images/standard-pin/pin.png",
     "color1": "white",
     "width1": 30,
