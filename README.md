@@ -17,10 +17,10 @@ For each level the following set of parameters is defined (here _K_ is index, 1<
 * **width**_K_ (required, number) - width of the image in pixels. 
 * **height**_K_ (required, number) - height of the image in pixels.
 * **size**_K_ (required, number) - size (in pixels) of the font used in the text label. 
-* **icon_x**_K_ (required, number) - the X anchor of the image, a place where the icon's hotspot is located. The position is defined in pixels and is relative to the the image's dimensions, so that the upper left corner of the image is a zero-point (0,0); axes have the following orientation: the X to the right; Y to the bottom. If the position is zero then the center of the image is set as the anchor.
-* **icon_y**_K_ (required, number) - the Y anchor of the image.
-* **label_x**_K_ (required) - the X anchor of the label, a place where the text label is located. The position is defined in pixels and is relative to the the image's dimensions. A positive value sets the offset relative to the top/left side of the image; negative value - relative to the right/bottom side of the image; zero - means to use center/middle position. The absolute value of the offset must be less than corresponding image's dimension, otherwise such value is considered to be invalid and is ignored.
-* **label_y**_K_ (required) - the Y anchor of the label.
+* **icon_x**_K_ (required, number or empty value) - the X anchor of the image, a place where the icon's hotspot is located. The position is defined in pixels and is relative to the the image's dimensions, so that the upper left corner of the image is a zero-point (0,0); axes have the following orientation: the X to the right; Y to the bottom. If the position is zero (or empty value) then the center of the image is set as the anchor.
+* **icon_y**_K_ (required, number or empty value) - the Y anchor of the image.
+* **label_x**_K_ (required, number or empty value) - the X anchor of the label, a place where the text label is located. The position is defined in pixels and is relative to the the image's dimensions. A positive value sets the offset relative to the top/left side of the image; negative value - relative to the right/bottom side of the image; zero (or empty value) - means to use center/middle position. The absolute value of the offset must be less than corresponding image's dimension, otherwise such value is considered to be invalid and is ignored.
+* **label_y**_K_ (required, number or empty value) - the Y anchor of the label.
 
 ## Files and folders
 
