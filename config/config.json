@@ -1,6 +1,6 @@
 [
 	{
-		"name": "Standard",
+		"name": "Default",
 		"info": "This is the standard (default) icon set that is used in original Yootheme's Map widget. This set is a part of <a href=\"https://github.com/googlemaps/js-marker-clusterer\">Master Clusterer</a> Javascript library provided by Google.",
 		"levels": [
 			{
@@ -74,6 +74,123 @@
 				"icon_y": 48,
 				"label_x": 0,
 				"label_y": -18
+			}
+		]
+	},
+	{
+		"name": "Standard Hearts",
+		"info": "This set is a part of <a href=\"https://github.com/googlemaps/js-marker-clusterer\">Master Clusterer</a> Javascript library provided by Google.",
+		"levels": [
+			{
+				"icon": "https://raw.githubusercontent.com/rvalitov/cluster-markers/master/images/standard-hearts/heart30.png",
+				"color": "#ff00ff",
+				"width": 30,
+				"height": 26,
+				"size": 10,
+				"icon_x": 0,
+				"icon_y": 0,
+				"label_x": 0,
+				"label_y": 4
+			},
+			{
+				"icon": "https://raw.githubusercontent.com/rvalitov/cluster-markers/master/images/standard-hearts/heart40.png",
+				"color": "#ff0000",
+				"width": 40,
+				"height": 35,
+				"size": 11,
+				"icon_x": 0,
+				"icon_y": 0,
+				"label_x": 0,
+				"label_y": 8
+			},
+			{
+				"icon": "https://raw.githubusercontent.com/rvalitov/cluster-markers/master/images/standard-hearts/heart50.png",
+				"color": "black",
+				"width": 50,
+				"height": 44,
+				"size": 12,
+				"icon_x": 0,
+				"icon_y": 0,
+				"label_x": 0,
+				"label_y": 12
+			}
+		]
+	},
+	{
+		"name": "Standard People",
+		"info": "This set is a part of <a href=\"https://github.com/googlemaps/js-marker-clusterer\">Master Clusterer</a> Javascript library provided by Google.",
+		"levels": [
+			{
+				"icon": "https://raw.githubusercontent.com/rvalitov/cluster-markers/master/images/standard-people/people35.png",
+				"color": "#ff00ff",
+				"width": 35,
+				"height": 35,
+				"size": 10,
+				"icon_x": 0,
+				"icon_y": 0,
+				"label_x": 0,
+				"label_y": 16
+			},
+			{
+				"icon": "https://raw.githubusercontent.com/rvalitov/cluster-markers/master/images/standard-people/people45.png",
+				"color": "#ff0000",
+				"width": 45,
+				"height": 45,
+				"size": 11,
+				"icon_x": 0,
+				"icon_y": 0,
+				"label_x": 0,
+				"label_y": 24
+			},
+			{
+				"icon": "https://raw.githubusercontent.com/rvalitov/cluster-markers/master/images/standard-people/people55.png",
+				"color": "#ffffff",
+				"width": 55,
+				"height": 55,
+				"size": 12,
+				"icon_x": 0,
+				"icon_y": 0,
+				"label_x": 0,
+				"label_y": 32
+			}
+		]
+	},
+	{
+		"name": "Standard Tootlips",
+		"info": "This set is a part of <a href=\"https://github.com/googlemaps/js-marker-clusterer\">Master Clusterer</a> Javascript library provided by Google.",
+		"levels": [
+			{
+				"icon": "https://raw.githubusercontent.com/rvalitov/cluster-markers/master/images/standard-tooltips/conv30.png",
+				"color": "#ff00ff",
+				"width": 30,
+				"height": 27,
+				"size": 10,
+				"icon_x": 0,
+				"icon_y": 0,
+				"label_x": 0,
+				"label_y": 3
+			},
+			{
+				"icon": "https://raw.githubusercontent.com/rvalitov/cluster-markers/master/images/standard-tooltips/conv40.png",
+				"color": "#ff0000",
+				"width": 40,
+				"height": 36,
+				"size": 11,
+				"icon_x": 0,
+				"icon_y": 0,
+				"label_x": 0,
+				"label_y": 6
+			},
+			{
+				"icon": "https://raw.githubusercontent.com/rvalitov/cluster-markers/master/images/standard-tooltips/conv50.png",
+				"color": "black",
+				"width": 50,
+				"height": 45,
+				"size": 12,
+				"icon_x": 0,
+				"icon_y": 0,
+				"label_x": 0,
+				"label_y": 8
 			}
 		]
 	}
